@@ -1,6 +1,18 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+@import "~@fontsource/poppins/index.css";
+
+* {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: 'calt'on;
+  font-feature-settings: 'calt'on;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+  -webkit-text-size-adjust: 100%;
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -233,4 +245,15 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+input.searchbar-input {
+
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+ion-searchbar ion-icon {
+
+  margin-top: 0.4rem;
 }
