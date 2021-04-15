@@ -1,0 +1,7 @@
+{
+  "name": "ionic-vue-item-list",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
