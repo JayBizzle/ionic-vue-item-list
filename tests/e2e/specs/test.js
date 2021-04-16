@@ -1,8 +1,29 @@
-// https://docs.cypress.io/api/introduction/api.html
 
-describe('My First Test', () => {
-  it('Visits the app root url', () => {
+describe('Logout', () => {
+
+  it('can logout', () => {
+    cy.viewport('iphone-x')
+
     cy.visit('/')
-    cy.contains('#container', 'Ready to create an app?')
+
+    cy.get('.employeeItem').should('have.length', 7)
+
+    cy.get('ion-card-subtitle').should('contain', 7)
+
+    cy.get('.employeeItem').first().find('ion-button').click()
+
+    cy.get('.employeeItem').should('have.length', 6)
+
+    cy.get('ion-card-subtitle').should('contain', 6)
+
+    cy.get('ion-searchbar').type('Alan')
+
+    cy.get('.employeeItem').should('have.length', 1)
+    
+    cy.get('ion-searchbar').clear()
+    
+    cy.get('.employeeItem').should('have.length', 6)
+
+    cy.get('ion-card-subtitle').should('contain', 6)
   })
 })
