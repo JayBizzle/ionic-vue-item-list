@@ -1,4 +1,5 @@
 # ionic-vue-item-list
+<a href="https://github.com/JayBizzle/ionic-vue-item-list/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/JayBizzle/ionic-vue-item-list/Test?style=flat-square"></a><br />
 An example of a nicely styled item list in Ionic Vue
 
 Based on [ionic-vue-item-list](https://github.com/alanmontgomery/ionic-react-item-list) by [@alanmontgomery](https://github.com/alanmontgomery/ionic-react-item-list)
