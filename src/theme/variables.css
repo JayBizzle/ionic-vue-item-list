@@ -257,6 +257,10 @@ input.searchbar-input {
   background-image: none;
 }
 
+.searchbar-clear-icon {
+  margin-top: 0rem;
+}
+
 ion-searchbar {
   margin-top: 0.5rem !important
 }

@@ -15,7 +15,7 @@
   
       <div class="mainContent">
         <ion-card-subtitle>{{ results.length }} {{ (results.legnth === 1) ? "employee" : "employees" }} found</ion-card-subtitle>
-        <ion-searchbar @keyup="search($event)" @keypress="search($event)" placeholder="Search..." icon="search" slot="end" />
+        <ion-searchbar @keyup="search($event)" @keypress="search($event)" placeholder="Search..." icon="search" show-cancel-button="never" />
 
         <ion-list>
           <ion-item :id="'employeeItem_' + employee.id" v-for="employee in results" :key="employee.id" class="employeeItem animate__animated animate__fadeIn" lines="none">
