@@ -2,7 +2,7 @@
 
 An example of a nicely styled item list in Ionic Vue
 
-Based on [ionic-vue-item-list](https://github.com/alanmontgomery/ionic-react-item-list) by [@alanmontgomery](https://github.com/alanmontgomery/ionic-react-item-list)
+Based on [ionic-react-item-list](https://github.com/alanmontgomery/ionic-react-item-list) by [@alanmontgomery](https://github.com/alanmontgomery/ionic-react-item-list)
 
 <!-- ![Ionic React Item List](https://repository-images.githubusercontent.com/358203630/3953e780-9ddf-11eb-9c0b-da2dde02dbfb) -->
 
